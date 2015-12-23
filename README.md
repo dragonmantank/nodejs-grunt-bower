@@ -7,6 +7,8 @@ This container allows you to run most Grunt and Bower commands without having to
 well as provide a way to encapsulate the commands on the host if you are using a virtualization layer like Vagrant that 
 can have very slow file notification times through NFS or VBoxFS.
 
+This image can be found on the Docker Hub at [https://hub.docker.com/r/dragonmantank/nodejs-grunt-bower/](https://hub.docker.com/r/dragonmantank/nodejs-grunt-bower/)
+
 ## How to use this image
 
 For basic usage you will want to run the container as yourself and mount your code inside the container. You will then
